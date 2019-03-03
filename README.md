@@ -1,25 +1,32 @@
 # HTOP
 
-![htop](https://raw.githubusercontent.com/oda-alexandre/htop/master/img/logo-htop.png) ![docker](https://raw.githubusercontent.com/oda-alexandre/htop/master/img/logo-docker.png)
+[![dockeri.co](https://dockeri.co/image/alexandreoda/htop)](https://hub.docker.com/r/alexandreoda/htop)
 
 
 ## INDEX
 
-- [Build Docker](#BUILD)
+- [Badges](#BADGES)
 - [Introduction](#INTRODUCTION)
 - [Prerequis](#PREREQUIS)
 - [Installation](#INSTALLATION)
 - [License](#LICENSE)
 
 
-## BUILD DOCKER
+## BADGES
 
-[![htop docker build](https://img.shields.io/docker/build/alexandreoda/htop.svg)](https://hub.docker.com/r/alexandreoda/htop)
+[![version](https://images.microbadger.com/badges/version/alexandreoda/htop.svg)](https://microbadger.com/images/alexandreoda/htop)
+[![size](https://images.microbadger.com/badges/image/alexandreoda/htop.svg)](https://microbadger.com/images/alexandreoda/htop")
+[![build](https://img.shields.io/docker/build/alexandreoda/htop.svg)](https://hub.docker.com/r/alexandreoda/htop)
+[![automated](https://img.shields.io/docker/automated/alexandreoda/htop.svg)](https://hub.docker.com/r/alexandreoda/htop)
 
 
 ## INTRODUCTION
 
-Ce repository contient le fichier Dockerfile de [htop](https://hisham.hm/htop) pour [docker](https://www.docker.com), mis à jour automatiquement dans le [docker hub](https://hub.docker.com/r/alexandreoda/htop/) public.
+Ce repository contient le fichier Dockerfile de
+
+- [htop](https://hisham.hm/htop)
+
+Mis à jour automatiquement dans le [docker hub public](https://hub.docker.com/r/alexandreoda/htop).
 
 
 ## PREREQUIS
