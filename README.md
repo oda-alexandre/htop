@@ -1,6 +1,6 @@
 # HTOP
 
-[![dockeri.co](https://dockeri.co/image/alexandreoda/htop)](https://hub.docker.com/r/alexandreoda/htop)
+<img src="https://hisham.hm/htop/htop-logo.png" />
 
 
 ## INDEX
@@ -14,10 +14,7 @@
 
 ## BADGES
 
-[![version](https://images.microbadger.com/badges/version/alexandreoda/htop.svg)](https://microbadger.com/images/alexandreoda/htop)
-[![size](https://images.microbadger.com/badges/image/alexandreoda/htop.svg)](https://microbadger.com/images/alexandreoda/htop")
-[![build](https://img.shields.io/docker/build/alexandreoda/htop.svg)](https://hub.docker.com/r/alexandreoda/htop)
-[![automated](https://img.shields.io/docker/automated/alexandreoda/htop.svg)](https://hub.docker.com/r/alexandreoda/htop)
+[![pipeline status](https://gitlab.com/oda-alexandre/htop/badges/master/pipeline.svg)](https://gitlab.com/oda-alexandre/htop/commits/master)
 
 
 ## INTRODUCTION
