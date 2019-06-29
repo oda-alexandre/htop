@@ -1,33 +1,35 @@
+# IMAGE TO USE
 FROM debian:stretch-slim
 
+# MAINTAINER
 MAINTAINER https://www.oda-alexandre.com/
 
 # VARIABLES
 ENV USER htop
 
-# INSTALLATION DE L'APPLICATION
+# INSTALL APP
 RUN apt-get update && apt-get install --no-install-recommends -y \
 sudo \
 htop \
 xterm && \
 
-# NETTOYAGE
+# CLEANING
 apt-get --purge autoremove -y && \
 apt-get autoclean -y && \
 rm /etc/apt/sources.list && \
 rm -rf /var/cache/apt/archives/* && \
 rm -rf /var/lib/apt/lists/* && \
 
-# AJOUT UTILISATEUR
+# ADD USER
 useradd -d /home/${USER} -m ${USER} && \
 passwd -d ${USER} && \
 adduser ${USER} sudo
 
-# SELECTION UTILISATEUR
+# SELECT USER
 USER ${USER}
 
-# SELECTION ESPACE DE TRAVAIL
+# SELECT WORKING SPACE
 WORKDIR /home/${USER}
 
-# COMMANDE AU DEMARRAGE DU CONTENEUR
-CMD xterm htop
+# START THE CONTAINER
+CMD xterm htop \
