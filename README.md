@@ -2,7 +2,6 @@
 
 <img src="https://hisham.hm/htop/htop-logo.png" width="200" height="200"/>
 
-
 ## INDEX
 
 - [Badges](#BADGES)
@@ -11,11 +10,9 @@
 - [Install](#INSTALL)
 - [License](#LICENSE)
 
-
 ## BADGES
 
 [![pipeline status](https://gitlab.com/oda-alexandre/htop/badges/master/pipeline.svg)](https://gitlab.com/oda-alexandre/htop/commits/master)
-
 
 ## INTRODUCTION
 
@@ -31,18 +28,13 @@ Automatically updated on :
 
 - [docker hub public](https://hub.docker.com/r/alexandreoda/htop)
 
-
 ## PREREQUISITES
 
 Use [docker](https://www.docker.com)
 
-
 ## INSTALL
 
-```
-docker run -d --name htop -v ${HOME}:/home/htop -v /tmp/.X11-unix/:/tmp/.X11-unix/ --pid host -e DISPLAY alexandreoda/htop
-```
-
+```docker run -d --name htop -v ${HOME}:/home/htop -v /tmp/.X11-unix/:/tmp/.X11-unix/ --pid host -e DISPLAY alexandreoda/htop```
 
 ## LICENSE
 
