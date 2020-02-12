@@ -1,6 +1,6 @@
 # HTOP
 
-<img src="https://hisham.hm/htop/htop-logo.png" width="200" height="200"/>
+<img src="https://assets.gitlab-static.net/uploads/-/system/project/avatar/12904452/htop.png" width="200" height="200"/>
 
 ## INDEX
 
