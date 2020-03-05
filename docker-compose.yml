@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  htop:
+    container_name: htop
+    image: alexandreoda/htop
+    restart: no
+    pid: host
+    privileged: false
+    environment:
+      - DISPLAY
+    volumes:
+      - "${HOME}:/home/htop"
+      - "/tmp/.X11-unix/:/tmp/.X11-unix/"
